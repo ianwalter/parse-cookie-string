@@ -13,3 +13,7 @@ test('simple cookie string gets parsed', t => {
   `
   t.expect(parseCookieString(cookie)).toMatchSnapshot()
 })
+
+test('undefined returns undefined', t => {
+  t.expect(parseCookieString(undefined)).toBe(undefined)
+})
