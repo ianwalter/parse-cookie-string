@@ -33,7 +33,7 @@
   "devDependencies": {
     "@ianwalter/bff": "^9.9.1",
     "@ianwalter/eslint-config": "^5.4.0",
-    "@ianwalter/renovate-config": "^1.4.0"
+    "@ianwalter/renovate-config": "^1.4.1"
   },
   "eslintConfig": {
     "root": true,
